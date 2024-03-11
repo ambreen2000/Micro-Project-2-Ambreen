@@ -1,0 +1,256 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+}
+
+.navigation-bar {
+    background-color: #6F6AF7;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.navigation-bar ul {
+    overflow: auto;
+    margin: 0%;
+    color: white;
+    padding: 0%;
+}
+
+.navigation-bar li {
+    float: left;
+    list-style: none;
+    margin: 13px 18px;
+
+}
+
+.company-name {
+    font-family: Delius Unicase;
+    font-size: 61px;
+    font-weight: 700;
+    line-height: 79px;
+    letter-spacing: 0em;
+}
+
+.navigation-bar input {
+    border: 0px solid black;
+    border-radius: 20px;
+    height: 20px;
+}
+
+.menu-icon {
+    font-family: Delius Unicase;
+    font-size: 61px;
+    font-weight: 700;
+    line-height: 79px;
+    letter-spacing: 0em;
+}
+
+.list-items {
+    font-family: DM Sans;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 15px 0px;
+
+}
+
+/* Div part CSS */
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 150px 20px 100px 20px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container1 img {
+    width: 456px;
+    height: 507px;
+    border-radius: 20px;
+}
+
+.container1 textarea {
+    display: flex;
+    width: 670px;
+    height: 417px;
+    margin: 20px 0px;
+    padding: 20px;
+    background-color: #E5D8FF;
+    color: #6F7373;
+    border: 0px;
+    border-radius: 20px;
+    text-align: start;
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 0px;
+    margin: 20px 0px;
+    padding: 0px;
+    justify-content: space-around;
+    width: 100%;
+    font-family: DM Sans;
+
+}
+
+.container2 div {
+    display: flex;
+    justify-content: left;
+    border-radius: 10px;
+    width: 20%;
+    margin: 40px 0px;
+    padding: 15px;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.box1 {
+    color: white;
+    background-color: #929DFF;
+
+}
+
+.box2 {
+    color: white;
+    background-color: #734CF2;
+
+}
+
+.box3 {
+    color: white;
+    background-color: #D288FF;
+
+}
+
+.box4 {
+    color: white;
+    background-color: #000000;
+
+}
+
+.StickyImg {
+    display: inline-block;
+}
+
+.StickyImg img {
+    position: sticky;
+    left: 200px;
+    top: 100px;
+    margin: 40px 0px;
+    height: 173.33px;
+    width: 56.66px;
+}
+
+.container3 {
+    display: flex;
+    background-color: #483EFF;
+    width: 100%;
+    margin: 30px 0px;
+    border-radius: 10px;
+    padding: 10px;
+    height: 560px;
+}
+
+.container3-left {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: 20px;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 63px;
+    letter-spacing: 0.04em;
+    justify-content: center;
+    color: white;
+}
+
+#box1{
+    background-color: #BCE0F6;
+    color: #000000;
+}
+
+.container3-right {
+    display: flex;
+    flex-direction: column;
+    width: 66%;
+
+}
+
+.container3-right h3 {
+    font-family: Inter;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0.105em;
+    text-align: left;
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 20px 10px 20px 0px;
+    text-align: left;
+}
+
+.details {
+    padding: 0px 0px 0px 20px;
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0.105em;
+    text-align: left;
+
+}
+
+#searchbtn {
+    position: relative;
+    left: 550px;
+    background: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    width: 150px;
+    height: 60px;
+    background-color: #000000;
+    cursor: pointer;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0.05em;
+    text-align: center;
+
+}
